@@ -15,5 +15,5 @@ This project implements a TCP client-server application where the client sends a
 
 ### 1. Clone the repository:
 ```bash
-git clone [<https://github.com/Prem203/Java-Server-Client-Activity.git>]
+git clone https://github.com/Prem203/Java-Server-Client-Activity.git
 cd tcp-client-server

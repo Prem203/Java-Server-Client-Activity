@@ -17,3 +17,36 @@ This project implements a TCP client-server application where the client sends a
 ```bash
 git clone https://github.com/Prem203/Java-Server-Client-Activity.git
 cd tcp-client-server
+```
+
+### 2. Compile the code:
+```bash
+javac Server.java
+javac Client.java
+```
+
+### 3. Run the server:
+```bash
+java Server <port>
+```
+
+##Example:
+```bash
+java Server 32000
+```
+
+### 4. Run the client:
+```bash
+java Client <server_ip> <port>
+```
+
+##Example:
+```bash
+java Client 127.0.0.1 32000
+```
+
+### 5. Enter your string (up to 80 characters):
+```bash
+Enter text: This is my text
+Response from server: TXET YM SI SIHt
+```
